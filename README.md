@@ -106,13 +106,13 @@ The analytics workflow helps identify frequently requested URLs, common HTTP met
 ![Hadoop Environment Setup](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.09.54%20PM%20(1).jpeg)
 
 ### 2. Hadoop Cluster Startup and JPS Verification
-![Hadoop Cluster Startup](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.09.55%20PM%20(2).jpeg)
+![Hadoop Cluster Startup](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.09.54%20PM%20(1).jpeg).jpeg)
 
 ### 3. Pig Script Loading, Cleaning and URL Grouping
 ![Pig Processing](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.01%20PM.jpeg)
 
 ### 4. Pig Job Execution and Aggregation
-![Pig Job Execution](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/pig-job-execution-aggregation.jpeg)
+![Pig Job Execution](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.10.01%20PM%20(3).jpeg)
 
 ### 5. Pig URL Frequency Results
 ![Pig URL Results](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.02%20PM.jpeg)
