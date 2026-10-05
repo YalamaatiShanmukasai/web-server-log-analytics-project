@@ -12,7 +12,7 @@ header p{margin:0;font-size:17px}
 main{max-width:1000px;margin:30px auto;padding:0 20px}
 .card{background:white;border-radius:12px;padding:24px;margin-bottom:20px;box-shadow:0 3px 12px rgba(0,0,0,.08)}
 h2{color:#123b5d}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px}
+.grid{display:flex;flex-direction:column;gap:12px}.stat{width:100%;box-sizing:border-box}
 .stat{background:#eef5f9;padding:18px;border-radius:10px;text-align:center}
 .stat b{display:block;font-size:25px;color:#1f5a7a;margin-bottom:5px}
 a.button{display:inline-block;background:#1565c0;color:white;text-decoration:none;padding:12px 18px;border-radius:7px;margin:5px 5px 0 0}
@@ -48,7 +48,7 @@ footer{text-align:center;padding:25px;color:#607d8b}
 </div>
 <div class="card">
 <h2>Project Workflow</h2>
-<p><b>Web Log Dataset → HDFS → Pig Cleansing &amp; Transformation → Aggregation → Hive External Table → HiveQL Analysis → Optimization → Findings</b></p>
+<div style="display:flex;flex-direction:column;gap:8px;text-align:center;font-weight:bold;line-height:1.6"><div>Web Log Dataset</div><div>↓</div><div>HDFS</div><div>↓</div><div>Pig Cleansing &amp; Transformation</div><div>↓</div><div>Aggregation</div><div>↓</div><div>Hive External Table</div><div>↓</div><div>HiveQL Analysis</div><div>↓</div><div>Optimization</div><div>↓</div><div>Findings</div></div>
 </div>
 
 
