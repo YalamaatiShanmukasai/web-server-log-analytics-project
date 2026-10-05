@@ -1,0 +1,11 @@
+ip,timestamp,method,page,status,response_time_ms,user_agent
+192.168.1.1,2026-10-01 10:00:01,GET,/home,200,512,Mozilla
+192.168.1.2,2026-10-01 10:01:15,POST,/login,302,1024,Chrome
+192.168.1.3,2026-10-01 10:02:20,GET,/products,200,2048,Edge
+192.168.1.4,2026-10-01 10:03:45,GET,/cart,200,512,Firefox
+192.168.1.5,2026-10-01 10:05:10,GET,/checkout,500,256,Chrome
+192.168.1.6,2026-10-01 10:06:30,POST,/payment,200,1024,Mozilla
+192.168.1.7,2026-10-01 10:07:50,GET,/home,200,512,Edge
+192.168.1.8,2026-10-01 10:08:12,GET,/products,404,256,Chrome
+192.168.1.9,2026-10-01 10:09:25,GET,/home,200,512,Mozilla
+192.168.1.10,2026-10-01 10:10:40,POST,/login,200,1024,Firefox
