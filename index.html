@@ -152,20 +152,20 @@ TYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Web Server Log Analytics and User Behavior Monitoring</title>
 <style>
-body{font-family:Arial,Helvetica,sans-serif;margin:0;background:#f4f7fa;color:#263238}
-header{background:#123b5d;color:white;padding:42px 20px;text-align:center}
-header h1{margin:0 0 10px;font-size:34px}
-header p{margin:0;font-size:17px}
-main{max-width:1000px;margin:30px auto;padding:0 20px}
-.card{background:white;border-radius:12px;padding:24px;margin-bottom:20px;box-shadow:0 3px 12px rgba(0,0,0,.08)}
-h2{color:#123b5d}
+body{font-family:Arial,Helvetica,sans-serif;margin:0;background:linear-gradient(135deg,#eef4f8,#f8fbfd);color:#263238;line-height:1.6}
+header{background:linear-gradient(135deg,#123b5d,#1f5a7a);color:white;padding:52px 20px;text-align:center;box-shadow:0 4px 18px rgba(18,59,93,.18)}
+header h1{margin:0 0 10px;font-size:38px;letter-spacing:.2px}
+header p{margin:5px 0;font-size:17px;opacity:.95}
+main{max-width:1050px;margin:34px auto;padding:0 20px}
+.card{background:white;border-radius:14px;padding:28px;margin-bottom:24px;box-shadow:0 5px 18px rgba(38,50,56,.08);border:1px solid #e4edf2}
+h2{color:#123b5d;font-size:26px;margin:0 0 18px;border-bottom:2px solid #e5eef3;padding-bottom:9px}
 .grid{display:flex;flex-direction:column;gap:12px}.stat{width:100%;box-sizing:border-box}
-.stat{background:#eef5f9;padding:18px;border-radius:10px;text-align:center}
-.stat b{display:block;font-size:25px;color:#1f5a7a;margin-bottom:5px}
-a.button{display:inline-block;background:#1565c0;color:white;text-decoration:none;padding:12px 18px;border-radius:7px;margin:5px 5px 0 0}
-ul{line-height:1.8}
-footer{text-align:center;padding:25px;color:#607d8b}
-.gallery{display:flex;flex-direction:column;align-items:center;gap:22px;margin-top:18px}.gallery figure{width:92%;max-width:880px;margin:0;background:#f7fafc;border:1px solid #dbe5ec;border-radius:10px;overflow:hidden;box-sizing:border-box}.gallery img{display:block;width:auto;max-width:100%;height:auto;max-height:520px;margin:0 auto;object-fit:contain;background:#eef2f5}.gallery figcaption{padding:11px 14px;text-align:center;font-weight:600;color:#234b68;font-size:14px;line-height:1.4;background:#fff}@media(max-width:600px){.gallery figure{width:100%}.gallery img{max-height:420px}}</style>
+.stat{background:linear-gradient(135deg,#eef5f9,#f8fbfd);padding:18px;border-radius:10px;text-align:center;border:1px solid #dbe8ef}
+.stat b{display:block;font-size:21px;color:#1f5a7a;margin-bottom:5px}
+a.button{display:inline-block;background:#1565c0;color:white;text-decoration:none;padding:11px 17px;border-radius:8px;margin:5px 5px 0 0;box-shadow:0 2px 6px rgba(21,101,192,.2);font-weight:600}
+ul{line-height:1.8;padding-left:25px}
+footer{text-align:center;padding:30px;color:#607d8b}
+.gallery{display:flex;flex-direction:column;align-items:center;gap:24px;margin-top:20px}.gallery figure{width:92%;max-width:900px;margin:0;background:#f7fafc;border:1px solid #dbe5ec;border-radius:12px;overflow:hidden;box-shadow:0 3px 12px rgba(38,50,56,.06)}.gallery img{display:block;width:auto;max-width:100%;height:auto;max-height:520px;margin:0 auto;object-fit:contain;background:#eef2f5}.gallery figcaption{padding:12px 15px;text-align:center;font-weight:600;color:#234b68;font-size:14px;line-height:1.4;background:white}@media(max-width:600px){.gallery figure{width:100%}.gallery img{max-height:420px}}table{margin:14px 0 22px}th{background:#eef5f9;color:#123b5d}pre{font-family:Consolas,"Courier New",monospace;font-size:14px;line-height:1.55;border:1px solid #e1eaf0}h3{color:#1f5a7a;margin-top:25px;margin-bottom:10px}@media(max-width:600px){header h1{font-size:28px}header p{font-size:15px}main{padding:0 12px}.card{padding:20px}.gallery figure{width:100%}.gallery img{max-height:420px}}}</style>
 </head>
 <body>
 <header>
