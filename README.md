@@ -120,8 +120,8 @@ The analytics workflow helps identify frequently requested URLs, common HTTP met
 ### 6. Pig Record Count Output
 ![Pig Record Count Output](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig-projects/main/WhatsApp%20Image%202026-10-04%20at%208.10.02%20PM.jpeg)
 
-### 7. Pig Error Analysis — 404 and 500 Responses
-![Pig Error Analysis — 404 and 500 Responses](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig-projects/main/WhatsApp%20Image%202026-10-04%20at%208.10.03%20PM.jpeg)
+### 7. Pig Error Output — 404 and 500 Error Counts
+![Pig Error Output — 404 and 500 Error Counts](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig-projects/main/WhatsApp%20Image%202026-10-04%20at%208.10.03%20PM.jpeg)
 
 ### 8. Hive External Table Creation
 ![Hive External Table Creation](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig-projects/main/WhatsApp%20Image%202026-10-04%20at%208.10.00%20PM%20(3).jpeg)
