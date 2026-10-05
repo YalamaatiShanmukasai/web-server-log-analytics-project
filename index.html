@@ -18,7 +18,7 @@ h2{color:#123b5d}
 a.button{display:inline-block;background:#1565c0;color:white;text-decoration:none;padding:12px 18px;border-radius:7px;margin:5px 5px 0 0}
 ul{line-height:1.8}
 footer{text-align:center;padding:25px;color:#607d8b}
-</style>
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-top:18px}.gallery figure{margin:0;background:#f7fafc;border:1px solid #dbe5ec;border-radius:10px;overflow:hidden}.gallery img{width:100%;height:210px;object-fit:contain;background:#eef2f5;display:block}.gallery figcaption{padding:12px;font-weight:600;color:#234b68;font-size:14px;line-height:1.4}@media(max-width:600px){.gallery{grid-template-columns:1fr}.gallery img{height:auto}}</style>
 </head>
 <body>
 <header>
@@ -49,6 +49,31 @@ footer{text-align:center;padding:25px;color:#607d8b}
 <div class="card">
 <h2>Project Workflow</h2>
 <p><b>Web Log Dataset → HDFS → Pig Cleansing &amp; Transformation → Aggregation → Hive External Table → HiveQL Analysis → Optimization → Findings</b></p>
+</div>
+
+<div class="card">
+<h2>Project Screenshots &amp; Execution Evidence</h2>
+<p>Selected screenshots from Hadoop, Pig Latin and Hive execution are shown below as project evidence.</p>
+<div class="gallery">
+<figure><img src="https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.09.54%20PM%20(1).jpeg" alt="Hadoop Daemon Startup and JPS Verification"><figcaption>1. Hadoop Daemon Startup and JPS Verification</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.09.54%20PM.jpeg" alt="Hadoop Cluster Startup and JPS Verification"><figcaption>2. Hadoop Cluster Startup and JPS Verification</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.01%20PM.jpeg" alt="Pig Script Loading Cleaning and URL Grouping"><figcaption>3. Pig Script Loading, Cleaning and URL Grouping</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.01%20PM%20(3).jpeg" alt="Pig Job Statistics and Aggregation"><figcaption>4. Pig Job Statistics and Aggregation</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.01%20PM%20(2).jpeg" alt="Pig URL Frequency Output"><figcaption>5. Pig URL Frequency Output</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.02%20PM.jpeg" alt="Pig Record Count Output"><figcaption>6. Pig Record Count Output</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.03%20PM.jpeg" alt="Pig Error Output 404 and 500 Error Counts"><figcaption>7. Pig Error Output — 404 and 500 Error Counts</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.00%20PM%20(3).jpeg" alt="Hive External Table Creation"><figcaption>8. Hive External Table Creation</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.00%20PM%20(2).jpeg" alt="Hive Table Data Verification"><figcaption>9. Hive Table Data Verification</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.00%20PM.jpeg" alt="Hive Total Record Count"><figcaption>10. Hive Total Record Count</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.00%20PM%20(1).jpeg" alt="Hive URL Request Analysis"><figcaption>11. Hive URL Request Analysis</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.09.59%20PM%20(1).jpeg" alt="Hive URL Frequency Analysis"><figcaption>12. Hive URL Frequency Analysis</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.09.59%20PM.jpeg" alt="Hive HTTP Method Analysis"><figcaption>13. Hive HTTP Method Analysis</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.09.55%20PM%20(1).jpeg" alt="Hive HTTP Status Analysis"><figcaption>14. Hive HTTP Status Analysis</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.01%20PM%20(1).jpeg" alt="Hive Data Cleaning and Transformation"><figcaption>15. Hive Data Cleaning and Transformation</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.09.55%20PM.jpeg" alt="Hive Partitioned Table Creation"><figcaption>16. Hive Partitioned Table Creation</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.09.54%20PM%20(2).jpeg" alt="Hive Bucketed Table Creation"><figcaption>17. Hive Bucketed Table Creation</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.06%20PM.jpeg" alt="Pig Input Processing and Job Statistics"><figcaption>18. Pig Input Processing and Job Statistics</figcaption></figure>
+</div>
 </div>
 <div class="card">
 <h2>Source Files &amp; Documentation</h2>
